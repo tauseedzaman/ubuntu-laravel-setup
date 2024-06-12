@@ -9,15 +9,19 @@ This script automates the setup of a web server environment with Apache, MySQL (
 
 ## Script Overview
 
-This script performs the following tasks:
+1. **Updates the package list and upgrades installed packages.**
+2. **Installs Apache, MySQL (or MariaDB), and PHP.**
+3. **Configures Apache to enable `mod_rewrite`.**
+4. **Installs and secures MySQL server.**
+5. **Creates a MySQL database and user with specified credentials.**
+6. **Installs Composer and necessary PHP extensions.**
+7. **Installs Node.js and npm.**
+8. **Installs Certbot for SSL certificates.**
+9. **Installs Supervisor for process management.**
+10. **Installs Redis.**
+11. **Installs UFW firewall and configures it to allow Apache traffic.**
+12. **Restarts Apache to apply changes.**
 
-1. Updates the package list and upgrades installed packages.
-2. Installs Apache, MySQL (or MariaDB), and PHP.
-3. Configures Apache to enable `mod_rewrite`.
-4. Installs and secures MySQL server.
-5. Creates a MySQL database and user with specified credentials.
-6. Installs Composer and necessary PHP extensions.
-7. Restarts Apache to apply changes.
 
 ## How to Run
 
@@ -33,9 +37,9 @@ The script includes default database configuration values:
 ```sh
 DB_HOST="127.0.0.1"
 DB_PORT="3306"
-DB_NAME="dbname"
-DB_USER="dbname_user"
-DB_PASS="dbname_pass"
+DB_NAME="laravel_db"
+DB_USER="laravel_db_user"
+DB_PASS="laravel_db_pass"
 ```
 
 You can modify these values within the script to match your desired database configuration.

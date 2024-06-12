@@ -20,7 +20,7 @@ print_message() {
     esac
 }
 
-# Check for --interactive  flag
+# Check for --interactive flag for interactive mode
 INTERACTIVE=false
 for arg in "$@"; do
     if [ "$arg" == "--interactive" ]; then

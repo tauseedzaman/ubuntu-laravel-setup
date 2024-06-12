@@ -1,4 +1,4 @@
-these will be added to the script in some time
+these will be added to the script in some time ;)
 
 1. **Mail Transfer Agent (MTA)**: Configure a mail server or use a service like Mailgun for sending emails from your application.
 8. **Monitoring Tools**: Install monitoring tools like Monit or Netdata for server health monitoring.

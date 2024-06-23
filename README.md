@@ -19,7 +19,7 @@ This script automates the setup of a web server environment with Apache, MySQL (
 8. **Installs Certbot for SSL certificates.**
 9. **Installs Supervisor for process management.**
 10. **Installs Redis.**
-11. **Installs UFW firewall and configures it to allow Apache traffic.**
+11. **Installs UFW firewall and configures it to allow SSH and Apache.**
 12. **Restarts Apache to apply changes.**
 
 

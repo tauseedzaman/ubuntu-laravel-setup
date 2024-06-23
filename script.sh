@@ -130,4 +130,6 @@ print_message "yellow" "Installing UFW firewall..."
 install_package "ufw"
 sudo ufw allow 'Apache Full'
 sudo ufw allow 'ssh'
-sudo ufw enable && print_message "green" "UFW firewall enabled." || print_message "red" "Failed to enable UFW firewall."
+
+print_message "green" "Enabling UFW firewall"
+sudo ufw enable

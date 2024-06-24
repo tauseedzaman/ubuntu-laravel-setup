@@ -59,3 +59,6 @@ You can modify these values within the script to match your desired database con
 
 - Ensure the script is run in a secure environment, as it involves setting up and securing a database.
 - Verify that the required PHP extensions (`php-xml` and `php-gd`) are available for your PHP version.
+
+## Demo
+[![Auto Configure Ubuntu For Laravel Applications](https://img.youtube.com/vi/R4xhm2HVgM4/0.jpg)](https://youtu.be/R4xhm2HVgM4)

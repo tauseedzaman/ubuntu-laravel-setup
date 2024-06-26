@@ -25,10 +25,10 @@ This script automates the setup of a web server environment with Apache, MySQL (
 
 ## How to Run
 
-1. **Run this with root or sudo privileges:**
-   ```sh
-   sudo curl -sS https://raw.githubusercontent.com/tauseedzaman/ubuntu-laravel-setup/main/script.sh | bash
-   ```
+**Run this with root or sudo privileges:**
+```sh
+sudo curl -sS https://raw.githubusercontent.com/tauseedzaman/ubuntu-laravel-setup/main/script.sh | bash
+```
 ### Interactive Mode
 
 In interactive mode, the script will prompt you before installing each package and allow you to enter the database configuration details.
